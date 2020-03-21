@@ -105,3 +105,4 @@ AccessControl.map :require => [ :admin, :publisher, :contributor ]  do |map|
     project.submenu "Titles",               { :controller => "admin/seo", :action => "titles" }
   end
 end
+
